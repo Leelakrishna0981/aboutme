@@ -2,7 +2,7 @@
 
 ## Repo Link
 - [Webpage](https://github.com/Leelakrishna0981/aboutme/blob/master/README.md)
-- [Source](https://github.com/Leelakrishna0981/aboutme)
+- [Source](https://leelakrishna0981.github.io/aboutme/)
 
 ## About
 This repository is used for displaying my work and portfolio for my fellow developers and future employers.
