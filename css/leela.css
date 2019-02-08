@@ -1,3 +1,63 @@
+<<<<<<< HEAD
+body {
+    padding-top: 5rem;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    /*background-color: lightblue;*/
+  }
+  
+  section {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(228, 238, 87);
+    border-radius: 2em;
+  }
+  #f1{
+    color: rgb(201, 5, 5);
+  }
+  #s2
+{
+  color: rgba(0, 255, 42, 0.541);
+}
+  #name
+{
+  color: orangered;	
+}
+
+  .para
+{
+color: white;
+}
+#s1
+{
+  color: chocolate;
+}
+#text
+{
+  color: limegreen;
+}
+#t1
+{
+  color: rgb(255, 248, 248);
+}
+  .bgimg {
+    background-image: url("https://github.com/Leelakrishna0981/aboutme/blob/master/Lion.jpeg?raw=true");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+  }
+  
+=======
 body {
     padding-top: 5rem;
   }
@@ -28,3 +88,4 @@ body {
     background-size: cover;
     background-attachment: fixed; /* fixed in viewport */
   }
+>>>>>>> 0eae0f1e71e4fff49eb062e458aa640337e0e5b0
