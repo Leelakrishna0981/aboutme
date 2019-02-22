@@ -48,6 +48,7 @@
     <header class="container-fluid">
         <h1 id="text">Leela Krishna</h1>
     </header>
+    <form>
     <h2 class="para">Length Converter</h2>
 <p id="t1">Type a value in the Meters field to convert the value to Feet:</p>
 
@@ -56,11 +57,9 @@
   <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
 </p>
 <p id="t1">Feet: <span id="outputFeet" class="t2"></span></p>
-
-<script>
-function LengthConverter(valNum) {
-  document.getElementById("outputFeet").innerHTML=valNum*3.2808;
-}
-</script>
+<h3 id="submit" class="t2">Click Me!</h3>
+<img src="" id="image" style="width: 100px;height: 100px;"/>
+<script src="./leela.js"></script>
+</form>
 </body>
 </html>
