@@ -7,7 +7,7 @@ function LengthConverter(valNum) {
   }
 }
 console.log('get random quotes: AJAX fetch')
-const url = "https://dog.ceo/api/breeds/image/random"
+const url = "https://thesimpsonsquoteapi.glitch.me/quotes"
 document.getElementById('submit').addEventListener('click', function() {
     fetch(url)
     .then((res) => { return res.json() }) 
