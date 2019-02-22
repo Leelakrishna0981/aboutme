@@ -1,6 +1,6 @@
 function LengthConverter(valNum) {
   if (valNum >= 0) {
-    document.getElementById("outputFeet").value = valNum * 3.2808;
+    document.getElementById("outputFeet").innerHTML = valNum * 3.28;
   }
   else{
     window.alert("length cannot be negative");
