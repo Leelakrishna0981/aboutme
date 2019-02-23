@@ -1,14 +1,13 @@
-function LengthConverter(valNum) {
-  if (valNum >= 0) {
-    document.getElementById("outputFeet").innerHTML = valNum * 3.28;
-  }
-  else{
-    window.alert("length cannot be negative");
+function LengthConverter(val) {
+    localStorage.setItem("val",parseFloat(document.getElementById("inputMeters").value));
+  if (localStorage.getItem("val") >= 0) {
+    document.getElementById("outputFeet").innerHTML = localStorage.getItem("val") * 3.28;
   }
 }
 console.log('get random quotes: AJAX fetch')
 const url = "https://thesimpsonsquoteapi.glitch.me/quotes"
-document.getElementById('submit').addEventListener('click', function() {
+document.getElementById('submit').addEventListener('mouseover', function() {
+    $("#image").show();
     fetch(url)
     .then((res) => { return res.json() }) 
     .then((data) => {          
@@ -22,3 +21,8 @@ document.getElementById('submit').addEventListener('click', function() {
         console.log(JSON.stringify(error)); 
     })
 })
+$(document).ready(function(){
+    $(".t2").mouseleave(function () {
+           $("#image").hide();
+    });
+});

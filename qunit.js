@@ -1,4 +1,5 @@
-function lengthConverter(number) {
+
+ function lengthConverter(number) {
     valNum = parseFloat(number);
     fToC = number * 3.28;
     return fToC; 
